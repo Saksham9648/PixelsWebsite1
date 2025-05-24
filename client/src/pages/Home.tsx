@@ -258,6 +258,29 @@ const Home = () => {
             transition={{ delay: 0.8, duration: 0.5 }}
             className="mt-20 text-center"
           ></motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.6, duration: 0.5 }}
+            className="mt-16 text-center"
+          >
+            
+             <a
+  href="https://g.page/r/CcLwC7R7Ama4EBM/review"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-lg transition-all duration-300 font-medium shadow-md"
+>
+  Rate Us
+</a>
+
+          
+            <br />
+            <br />
+            <br />
+            {/* <br /> */}
+          </motion.div>
 
     </>
   );
