@@ -38,42 +38,53 @@ const TermsConditions: React.FC = () => {
           <li>You may not reproduce or distribute our content without permission.</li>
         </ul>
 
-        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">4. Payments and Subscriptions</h2>
+        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">4. Referral Program</h2>
+        <ul className="list-disc pl-6 text-gray-700 mb-4">
+          <li>We offer a 10% commission on every successful project referral.</li>
+          <li>This commission applies to all services, including Web Development, App Development, Digital Marketing, and other related projects.</li>
+          <li>The referral commission is paid only after the referred client completes the final payment for their project.</li>
+          <li>To qualify for the commission, referrals must be new clients not previously engaged with Pixels Being.</li>
+          <li>Commission payments will be made based on terms communicated at the time of referral and subject to verification.</li>
+          <li>Pixels Being reserves the right to modify or terminate the referral program at any time with prior notice.</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">5. Payments and Subscriptions</h2>
         <ul className="list-disc pl-6 text-gray-700 mb-4">
           <li>Services like custom Web Design or App Development require payment per project agreements.</li>
+          <li>We begin project development only after receiving 50% of the agreed payment as an upfront advance.</li>
           <li>Subscriptions (if offered) auto-renew unless canceled via your account or by contacting us.</li>
           <li>Refunds are subject to project-specific agreements or applicable law.</li>
         </ul>
 
-        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">5. Termination</h2>
+        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">6. Termination</h2>
         <ul className="list-disc pl-6 text-gray-700 mb-4">
           <li>We may suspend or terminate access for violating these Terms.</li>
           <li>You may stop using our services at any time. Data may be deleted upon termination.</li>
         </ul>
 
-        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">6. Disclaimers and Limitation of Liability</h2>
+        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">7. Disclaimers and Limitation of Liability</h2>
         <ul className="list-disc pl-6 text-gray-700 mb-4">
           <li>Services are provided "as is" without warranties.</li>
           <li>We are not liable for indirect or consequential damages.</li>
           <li>Our liability is limited to amounts paid to us in the past 12 months.</li>
         </ul>
 
-        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">7. Indemnification</h2>
+        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">8. Indemnification</h2>
         <p className="text-gray-700 mb-4">
           You agree to indemnify Pixels Being from claims arising from your use of our services or violation of these Terms.
         </p>
 
-        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">8. Governing Law</h2>
+        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">9. Governing Law</h2>
         <p className="text-gray-700 mb-4">
-          These Terms are governed by the laws of [Your State/Country], with disputes resolved in [Your Jurisdiction] courts.
+          These Terms are governed by the laws of India, with disputes resolved in the courts located in Lakhimpur, Uttar Pradesh.
         </p>
 
-        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">9. Changes to These Terms</h2>
+        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">10. Changes to These Terms</h2>
         <p className="text-gray-700 mb-4">
           Updates will be posted here. Continued use constitutes acceptance.
         </p>
 
-        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">10. Contact Us</h2>
+        <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">11. Contact Us</h2>
         <p className="text-gray-700">
           Reach us at:
           <br />
