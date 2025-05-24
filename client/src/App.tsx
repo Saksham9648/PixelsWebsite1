@@ -10,6 +10,8 @@ import ReferEarn from "@/pages/ReferEarn";
 import Faq from "@/pages/Faq";
 import Contact from "@/pages/Contact";
 import NotFound from "@/pages/not-found";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
 
 
 function App() {
@@ -25,6 +27,9 @@ function App() {
           <Route path="/refer-earn" component={ReferEarn} />
           <Route path="/faq" component={Faq} />
           <Route path="/contact" component={Contact} />
+          <Route path="/privacy-policy" component={PrivacyPolicy} />
+          <Route path="/terms-conditions" component={TermsConditions} />
+
           <Route component={NotFound} />
         </Switch>
       </Layout>
