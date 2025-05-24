@@ -68,7 +68,7 @@ const About = () => {
                   </div>
                   <div className="text-center p-2">
                     <h4 className="text-3xl font-bold gradient-text mb-1">
-                      <AnimatedCounter value={300} />+
+                      <AnimatedCounter value={100} />+
                     </h4>
                     <p className="text-muted-foreground text-xs font-medium">Projects Completed</p>
                   </div>
@@ -80,7 +80,7 @@ const About = () => {
                   </div>
                   <div className="text-center p-2">
                     <h4 className="text-3xl font-bold gradient-text mb-1">
-                      <AnimatedCounter value={50} />+
+                      <AnimatedCounter value={10} />+
                     </h4>
                     <p className="text-muted-foreground text-xs font-medium">Team Members</p>
                   </div>
