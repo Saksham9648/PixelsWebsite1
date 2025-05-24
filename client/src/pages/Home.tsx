@@ -206,7 +206,7 @@ const Home = () => {
           title="Home Tuition Wala SEO Campaign"
           description="A comprehensive SEO strategy that increased organic traffic by 287% for a home tuition providing company."
           tags={["SEO", "Content Marketing", "Analytics"]}
-          link="https://67738ad0644e61c07776d298--superlative-sprinkles-f01280.netlify.app"
+          link="https://hometuitionwala.live"
         />
       </motion.div>
     </div>
