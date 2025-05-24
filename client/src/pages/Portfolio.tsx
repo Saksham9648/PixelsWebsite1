@@ -137,34 +137,58 @@ const Portfolio = () => {
       </section>
 
       {/* Testimonial Section */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="mt-23"
-          >
-            <h3 className="text-3xl font-bold text-center mb-10 text-white">What Our <span className="blue-text">Clients</span> Say</h3>
-            <Carousel className="max-w-5xl mx-auto">
-              <CarouselContent>
-                {testimonials.map((t, i) => (
-                  <CarouselItem key={i} className="px-4">
-                    <div className="bg-gradient-to-br from-blue-700/30 to-purple-800/30 p-6 rounded-2xl shadow-xl backdrop-blur-md border border-white/10 text-white relative overflow-hidden animate-glow">
-                      <p className="text-lg mb-4 italic">"{t.feedback}"</p>
-                      <div className="font-semibold">- {t.name}, {t.company}</div>
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-            </Carousel>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.8, duration: 0.5 }}
-            className="mt-20 text-center"
-          ></motion.div>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6 }}
+                  viewport={{ once: true }}
+                  className="mt-23"
+                >
+                  <h3 className="text-3xl font-bold text-center mb-10 text-white">What Our <span className="blue-text">Clients</span> Say</h3>
+                  <Carousel className="max-w-5xl mx-auto">
+                    <CarouselContent>
+                      {testimonials.map((t, i) => (
+                        <CarouselItem key={i} className="px-4">
+                          <div className="bg-gradient-to-br from-blue-700/30 to-purple-800/30 p-6 rounded-2xl shadow-xl backdrop-blur-md border border-white/10 text-white relative overflow-hidden animate-glow">
+                            <p className="text-lg mb-4 italic">"{t.feedback}"</p>
+                            <div className="font-semibold">- {t.name}, {t.company}</div>
+                          </div>
+                        </CarouselItem>
+                      ))}
+                    </CarouselContent>
+                  </Carousel>
+                </motion.div>
+      
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.8, duration: 0.5 }}
+                  className="mt-20 text-center"
+                ></motion.div>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.6, duration: 0.5 }}
+                  className="mt-16 text-center"
+                >
+                  
+                   <a
+        href="https://g.page/r/CcLwC7R7Ama4EBM/review"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-lg transition-all duration-300 font-medium shadow-md"
+      >
+        Rate Us
+      </a>
+      
+                
+                  <br />
+                  <br />
+                  <br />
+                  {/* <br /> */}
+                </motion.div>
+      
     </>
   );
 };
