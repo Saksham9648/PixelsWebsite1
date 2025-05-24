@@ -1,33 +1,38 @@
 import { motion } from "framer-motion";
 import { ServiceCardProps } from "@/lib/types";
 import { Link } from "wouter";
-import { 
-  FiCode, 
-  FiSearch, 
-  FiSmartphone, 
-  FiCheck, 
-  FiArrowRight, 
+import {
+  FiCode,
+  FiSearch,
+  FiSmartphone,
+  FiCheck,
+  FiArrowRight,
   FiLayout,
   FiPieChart,
-  FiShoppingBag
+  FiShoppingBag,
+  FiPenTool,
+  FiTrendingUp
 } from "react-icons/fi";
 
 const ServiceCard = ({ icon, title, description, features }: ServiceCardProps) => {
-  // Function to render the correct icon based on icon name string
   const renderIcon = () => {
-    switch(icon) {
-      case 'FiCode':
+    switch (icon) {
+      case "FiCode":
         return <FiCode className="w-8 h-8" />;
-      case 'FiSearch':
+      case "FiSearch":
         return <FiSearch className="w-8 h-8" />;
-      case 'FiSmartphone':
+      case "FiSmartphone":
         return <FiSmartphone className="w-8 h-8" />;
-      case 'FiLayout':
+      case "FiLayout":
         return <FiLayout className="w-8 h-8" />;
-      case 'FiPieChart':
+      case "FiPieChart":
         return <FiPieChart className="w-8 h-8" />;
-      case 'FiShoppingBag':
+      case "FiShoppingBag":
         return <FiShoppingBag className="w-8 h-8" />;
+      case "FiPenTool":
+        return <FiPenTool className="w-8 h-8" />;
+      case "FiTrendingUp":
+        return <FiTrendingUp className="w-8 h-8" />;
       default:
         return <FiCode className="w-8 h-8" />;
     }
@@ -43,10 +48,10 @@ const ServiceCard = ({ icon, title, description, features }: ServiceCardProps) =
           {renderIcon()}
         </div>
       </div>
-      
+
       <h3 className="text-2xl font-montserrat font-bold mb-4">{title}</h3>
       <p className="text-muted-foreground mb-6">{description}</p>
-      
+
       <ul className="space-y-3 mb-8 flex-grow">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start">
@@ -57,7 +62,7 @@ const ServiceCard = ({ icon, title, description, features }: ServiceCardProps) =
           </li>
         ))}
       </ul>
-      
+
       <Link href="/contact">
         <a className="inline-flex items-center gap-2 border border-primary/30 bg-muted hover:bg-primary text-foreground hover:text-white py-2.5 px-6 rounded-lg transition-all duration-300 mt-auto self-start">
           Get Started
