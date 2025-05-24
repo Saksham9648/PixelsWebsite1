@@ -7,7 +7,7 @@ const referSteps: ReferStepProps[] = [
   {
     number: 1,
     title: "Refer a Friend or Business",
-    description: "Share your unique referral link with friends, family, or business contacts who could benefit from our services."
+    description: "Know someone who could benefit from our services? Spread the word! Whether it's a friend, family member, or a business contact, your recommendation means a lot to us."
   },
   {
     number: 2,
