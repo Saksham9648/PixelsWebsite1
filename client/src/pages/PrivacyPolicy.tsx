@@ -60,7 +60,7 @@ const PrivacyPolicy: React.FC = () => {
 
         <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">7. International Users</h2>
         <p className="text-gray-700 mb-4">
-          If you’re outside [Your Country], your data may be processed in [e.g., United States, where Vercel servers are located]. We comply with applicable laws like GDPR or CCPA where required.
+          If you’re outside India, your data may be processed in [e.g., United States, where Vercel servers are located]. We comply with applicable laws like GDPR or CCPA where required.
         </p>
 
         <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">8. Children’s Privacy</h2>
