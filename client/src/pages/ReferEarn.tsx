@@ -74,11 +74,11 @@ const ReferEarn = () => {
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start">
                     <i className="fas fa-gift text-primary mt-1 mr-2"></i>
-                    <span className="text-muted-foreground">Basic Package Referral: ₹2,000 or 10%</span>
+                    <span className="text-muted-foreground">Basic Package Referral: ₹1,000 or 10%</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-gift text-primary mt-1 mr-2"></i>
-                    <span className="text-muted-foreground">Standard Package Referral: ₹3,500 or 10%</span>
+                    <span className="text-muted-foreground">Standard Package Referral: ₹2,500 or 10%</span>
                   </li>
                   <li className="flex items-start">
                     <i className="fas fa-gift text-primary mt-1 mr-2"></i>
