@@ -55,7 +55,7 @@ const Hero = () => {
             >
               <div className="flex -space-x-3">
                 <div className="w-12 h-12 rounded-full border-2 border-background bg-primary/20 flex items-center justify-center text-primary">
-                  <span className="font-bold">500+</span>
+                  <span className="font-bold">150+</span>
                 </div>
                 <div className="w-12 h-12 rounded-full border-2 border-background bg-primary/10 flex items-center justify-center text-primary">
                   <span className="font-bold">98%</span>
@@ -65,7 +65,7 @@ const Hero = () => {
                 </div>
               </div>
               <div>
-                <p className="text-muted-foreground font-medium">Trusted by <span className="text-primary">500+</span> clients</p>
+                <p className="text-muted-foreground font-medium">Trusted by <span className="text-primary">150+</span> clients</p>
               </div>
             </motion.div>
           </motion.div>
@@ -95,7 +95,7 @@ const Hero = () => {
                   <div className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center text-primary">
                     <FiZap className="w-5 h-5" />
                   </div>
-                  <p className="text-sm font-medium">300+ Projects Delivered</p>
+                  <p className="text-sm font-medium">100+ Projects Delivered</p>
                 </div>
               </div>
             </div>
