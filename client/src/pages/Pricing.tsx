@@ -50,7 +50,7 @@ const webPlans: PricingCardProps[] = [
 const appPlans: PricingCardProps[] = [
   {
     title: "Basic Plan",
-    price: "₹40,000",
+    price: "₹39,999",
     description: "Android app only (up to 5 screens)",
     features: [
       { included: true, text: "Clean UI with static content" },
@@ -61,7 +61,7 @@ const appPlans: PricingCardProps[] = [
   },
   {
     title: "Standard Plan",
-    price: "₹90,000",
+    price: "₹89,999",
     description: "Android + iOS (using Flutter)",
     features: [
       { included: true, text: "6–10 screens with interactive UI" },
@@ -74,7 +74,7 @@ const appPlans: PricingCardProps[] = [
   },
   {
     title: "Premium Plan",
-    price: "₹2,00,000",
+    price: "₹1,99,999",
     description: "Custom Android + iOS app",
     features: [
       { included: true, text: "Full backend with Node.js or Laravel" },
@@ -89,7 +89,7 @@ const appPlans: PricingCardProps[] = [
 const seoPlans: PricingCardProps[] = [
   {
     title: "Basic SEO",
-    price: "₹6,000/month",
+    price: "₹5,999/month",
     description: "Essential SEO support for small businesses.",
     features: [
       { included: true, text: "10 keywords" },
@@ -100,7 +100,7 @@ const seoPlans: PricingCardProps[] = [
   },
   {
     title: "Standard SEO",
-    price: "₹15,000/month",
+    price: "₹14,999/month",
     description: "Balanced plan for growing visibility.",
     features: [
       { included: true, text: "25 keywords" },
@@ -113,7 +113,7 @@ const seoPlans: PricingCardProps[] = [
   },
   {
     title: "Premium SEO",
-    price: "₹35,000/month",
+    price: "₹34,999/month",
     description: "Complete SEO strategy for competitive industries.",
     features: [
       { included: true, text: "50+ keywords" },
