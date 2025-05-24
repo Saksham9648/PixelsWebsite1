@@ -27,14 +27,14 @@ const webPlans: PricingCardProps[] = [
       { included: true, text: "Mobile Responsive" },
       { included: true, text: "Advanced Contact Forms" },
       { included: true, text: "Social Media Integration" },
-      { included: true, text: "Basic E-commerce (up to 50 products)" },
+      { included: true, text: "Unique Design" },
       { included: true, text: "Standard SEO Package" }
     ],
     popular: true
   },
   {
     title: "Premium",
-    price: "₹29,999+",
+    price: "₹34,999+",
     description: "Complete solution for established businesses seeking maximum online impact.",
     features: [
       { included: true, text: "Unlimited Pages" },
