@@ -85,7 +85,12 @@ const ReferEarn = () => {
                     <span className="text-muted-foreground">Premium Package Referral: ₹5,000 or 10%</span>
                   </li>
                 </ul>
-                <p className="text-sm text-muted-foreground">*Terms and conditions apply. Rewards are processed after the referred client's first payment is completed.</p>
+                <p className="text-sm text-muted-foreground">
+  <a href="/terms-conditions" className="text-blue-500 hover:underline">
+    *Terms and conditions apply.
+  </a> Rewards are processed after the referred client's final payment is completed.
+</p>
+
               </motion.div>
             </motion.div>
             
