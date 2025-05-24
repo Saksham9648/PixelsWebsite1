@@ -128,7 +128,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#"
+                  href="contact"
                   className="text-muted-foreground hover:text-primary transition-colors duration-300 flex items-center"
                 >
                   <FiGlobe className="mr-2 h-4 w-4 text-primary" />
@@ -137,7 +137,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="contact"
                   className="text-muted-foreground hover:text-primary transition-colors duration-300 flex items-center"
                 >
                   <FiBarChart className="mr-2 h-4 w-4 text-primary" />
@@ -146,7 +146,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="contact"
                   className="text-muted-foreground hover:text-primary transition-colors duration-300 flex items-center"
                 >
                   <FiHeart className="mr-2 h-4 w-4 text-primary" />
@@ -155,7 +155,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="contact"
                   className="text-muted-foreground hover:text-primary transition-colors duration-300 flex items-center"
                 >
                   <FiShoppingCart className="mr-2 h-4 w-4 text-primary" />
@@ -164,7 +164,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="contact"
                   className="text-muted-foreground hover:text-primary transition-colors duration-300 flex items-center"
                 >
                   <FiSettings className="mr-2 h-4 w-4 text-primary" />
@@ -216,13 +216,13 @@ const Footer = () => {
           </p>
           <p className="text-muted-foreground mt-4">
             <a
-              href="#"
+              href="privacy-policy"
               className="hover:text-primary transition-colors duration-300 mx-3"
             >
               Privacy Policy
             </a>
             <a
-              href="#"
+              href="terms-conditions"
               className="hover:text-primary transition-colors duration-300 mx-3"
             >
               Terms of Service
