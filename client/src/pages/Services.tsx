@@ -6,7 +6,7 @@ import { ServiceCardProps } from "@/lib/types";
 
 const services: ServiceCardProps[] = [
   {
-    icon: "fas fa-laptop-code",
+    icon: "FiCode",
     title: "Web Development",
     description: "Custom-designed, responsive websites that drive engagement and conversions.",
     features: [
@@ -19,7 +19,7 @@ const services: ServiceCardProps[] = [
     ]
   },
   {
-    icon: "fas fa-search",
+    icon: "FiSearch",
     title: "SEO Services",
     description: "Data-driven strategies to improve your search rankings and organic traffic.",
     features: [
@@ -32,7 +32,7 @@ const services: ServiceCardProps[] = [
     ]
   },
   {
-    icon: "fas fa-mobile-alt",
+    icon: "FiSmartphone",
     title: "App Development",
     description: "Custom mobile applications that provide seamless user experiences.",
     features: [
@@ -45,7 +45,7 @@ const services: ServiceCardProps[] = [
     ]
   },
   {
-    icon: "fas fa-shopping-cart",
+    icon: "FiShoppingBag",
     title: "E-commerce Solutions",
     description: "Complete online shopping platforms with secure payment processing and inventory management.",
     features: [
@@ -58,20 +58,20 @@ const services: ServiceCardProps[] = [
     ]
   },
   {
-  icon: "fas fa-paint-brush",
-  title: "Graphic Design",
-  description: "Creative visual solutions to communicate your brand's message effectively and memorably.",
-  features: [
-    "Logo & Branding Design",
-    "Thumbnail Designing",
-    "Social Media Graphics",
-    "Brochures & Flyers",
-    "Banner & Poster Design",
-    "Custom Illustrations"
-  ]
-},
+    icon: "FiPenTool",
+    title: "Graphic Design",
+    description: "Creative visual solutions to communicate your brand's message effectively and memorably.",
+    features: [
+      "Logo & Branding Design",
+      "Thumbnail Designing",
+      "Social Media Graphics",
+      "Brochures & Flyers",
+      "Banner & Poster Design",
+      "Custom Illustrations"
+    ]
+  },
   {
-    icon: "fas fa-bullhorn",
+    icon: "FiTrendingUp", // Replaces FiBullhorn
     title: "Digital Marketing",
     description: "Comprehensive marketing strategies to increase your online visibility and drive conversions.",
     features: [
@@ -84,7 +84,7 @@ const services: ServiceCardProps[] = [
     ]
   },
   {
-    icon: "fas fa-paint-brush",
+    icon: "FiLayout",
     title: "UI/UX Design",
     description: "User-centered design that focuses on creating intuitive and engaging experiences.",
     features: [
@@ -103,7 +103,10 @@ const Services = () => {
     <>
       <Helmet>
         <title>Services | PixelsBeing</title>
-        <meta name="description" content="Explore our comprehensive web development, SEO, and app development services at PixelsBeing. Professional solutions for businesses in Lakhimpur, Gonda, Sitapur, and Lucknow." />
+        <meta
+          name="description"
+          content="Explore our comprehensive web development, SEO, and app development services at PixelsBeing. Professional solutions for businesses in Lakhimpur, Gonda, Sitapur, and Lucknow."
+        />
       </Helmet>
 
       <section className="py-32 bg-card">
