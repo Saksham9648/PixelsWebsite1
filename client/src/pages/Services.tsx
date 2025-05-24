@@ -58,6 +58,19 @@ const services: ServiceCardProps[] = [
     ]
   },
   {
+  icon: "fas fa-paint-brush",
+  title: "Graphic Design",
+  description: "Creative visual solutions to communicate your brand's message effectively and memorably.",
+  features: [
+    "Logo & Branding Design",
+    "Thumbnail Designing",
+    "Social Media Graphics",
+    "Brochures & Flyers",
+    "Banner & Poster Design",
+    "Custom Illustrations"
+  ]
+},
+  {
     icon: "fas fa-bullhorn",
     title: "Digital Marketing",
     description: "Comprehensive marketing strategies to increase your online visibility and drive conversions.",
