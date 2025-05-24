@@ -106,7 +106,7 @@ const ReferralForm = () => {
         {/* Friend's Name (unchanged) */}
         <div>
           <label htmlFor="friendName" className="block text-muted-foreground mb-2">
-            Friend's Name
+            Client's Name
           </label>
           <input
             type="text"
@@ -125,7 +125,7 @@ const ReferralForm = () => {
         {/* Friend's Phone (replaced email) */}
         <div>
           <label htmlFor="friendPhone" className="block text-muted-foreground mb-2">
-            Friend's Phone (+91)
+            Client's Phone (+91)
           </label>
           <input
             type="tel"
