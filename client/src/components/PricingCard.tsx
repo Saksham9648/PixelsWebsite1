@@ -22,7 +22,7 @@ const PricingCard = ({ title, price, description, features, popular = false }: P
         <h3 className="text-2xl font-montserrat font-bold mb-4">{title}</h3>
         <div className="flex items-baseline mb-6">
           <span className={`text-4xl font-bold ${popular ? "blue-text" : ""}`}>{price}</span>
-          <span className="text-muted-foreground ml-2">/ one-time</span>
+          {/* <span className="text-muted-foreground ml-2">/ one-time</span> */}
         </div>
         <p className="text-muted-foreground mb-8">{description}</p>
         
