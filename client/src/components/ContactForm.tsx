@@ -177,6 +177,7 @@ const ContactForm = () => {
             <option value="app-development">App Development</option>
             <option value="digital-marketing">Digital Marketing</option>
             <option value="ui-ux-design">UI/UX Design</option>
+            <option value="graphic-designing">Graphic Design</option>
             <option value="other">Other</option>
           </select>
           {errors.service && (
