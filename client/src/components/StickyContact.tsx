@@ -60,7 +60,7 @@ const StickyContact = () => {
               <h4 className="text-lg font-bold mb-4">Get in <span className="blue-text">Touch</span></h4>
               <div className="flex flex-col space-y-3">
                 <a
-                  href="tel:+911234567890"
+                  href="tel:+918756309900"
                   className="flex items-center space-x-3 text-foreground hover:text-primary p-2 rounded-lg hover:bg-primary/5 transition-all"
                 >
                   <div className="bg-primary/10 w-10 h-10 rounded-full flex items-center justify-center">
@@ -69,7 +69,7 @@ const StickyContact = () => {
                   <span>+91 8756309900</span>
                 </a>
                 <a
-                  href="mailto:info@pixelsbeing.com"
+                  href="mailto:pixelsbeing@gmail.com"
                   className="flex items-center space-x-3 text-foreground hover:text-primary p-2 rounded-lg hover:bg-primary/5 transition-all"
                 >
                   <div className="bg-primary/10 w-10 h-10 rounded-full flex items-center justify-center">
